@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { CyberPreloader } from './components/CyberPreloader';
 import { BackgroundMedia } from './components/BackgroundMedia';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
@@ -32,6 +33,9 @@ export default function App() {
     <div
       className={`min-h-screen relative selection:bg-emerald-400 selection:text-black font-body`}
     >
+      {/* High-Tech Cyber Loading & System Initialization Preloader */}
+      <CyberPreloader lang={lang} />
+
       {/* Permanent Fixed 3D Interactive Mouse-Scrub Video Canvas */}
       <BackgroundMedia
         mode="video-scrub"
