@@ -1,0 +1,6 @@
+{
+  "name": "AREN",
+  "description": "Interactive 3D portfolio and cyber security laboratory of Aren (@Aren_R0) — Full-stack web engineering, offensive security, and high-performance digital systems.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
